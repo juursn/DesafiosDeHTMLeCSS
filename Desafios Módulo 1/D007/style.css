@@ -1,0 +1,18 @@
+img{
+    border-radius: 20px;
+    margin: auto;
+    
+}
+
+h1{
+    color: aliceblue;
+    
+}
+body{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    background-color: #48564C;
+    text-align: center;
+}
