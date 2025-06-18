@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300..700;1,300..700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 *{
     padding: 0px;
     margin: 0px;
@@ -11,7 +11,7 @@
 :root{
     --banner:url(img/banner2.jpg);
     --titulofont:"Cinzel",'Courier New', Courier, monospace;
-    --geralfont:"Cormorant Infant", sans-serif;
+    --geralfont:"PT Sans", sans-serif;
 }
 
 #filtro{
@@ -91,9 +91,7 @@ main p{
 .integrante figcaption{
     font-weight: bold;
 }
-.integrante p{
-    
-}
+
 .integrante{
     display: flex;
     align-items: center;
