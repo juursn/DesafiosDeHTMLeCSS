@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Slackey&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --titulo: 'Slackey', Arial;
+    --texto:  'Patrick Hand', 'cursive';
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    font-family: var(--texto);
+    font-size: 3.5vw;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    text-align: center;
+    font-family: var(--titulo);
+}
+header h1{
+    font-weight: 700;
+    font-size: 8vw;
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+header > p{
+    font-size: 3.5vw;
+    padding-bottom: 50px;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+}
+header a:hover{
+    text-decoration: underline;
+}
+div > p {
+    white-space: pre-line;
+}
+
+div{
+    padding: 10vh 0 10vh 0;
+    line-height: 1.8em;
+    padding-left: 30px;
+}
+
+.fundo{
+    background-color: white;
+    color: black;
+}
+
+
+.foto{
+    color: white;
+    box-shadow: inset 6px 6px 13px 0 rgba(0, 0, 0, 0.33);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#foto1{
+    background-image: url(img/background-RedesSociais.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+#foto2{
+    background-image:url(img/background-Escrita.jpg);
+    background-repeat: no-repeat;
+    background-position: center ;
+
+}
+.foto  p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.57);
+    border-radius: 8px;
+    padding: 4px;
+}
+
+footer{
+    background-color: black;
+    text-align: center; 
+    color: white;
+    bottom: 0;
+    width: 100%;
+    min-height: 20px;
+    max-height: 100px;
+}

@@ -1,0 +1,24 @@
+body{
+    position: relative;
+    background-image: url(img/espaco.jpg);
+    background-size:100% 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    height: 97vh;
+}
+#astronalta{
+    position: absolute;
+    background-image: url(img/astronauta.png);  
+    background-size: 100% 100%;     
+
+    width: 500px;
+    height: 500px;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#astronalta:hover{
+    transform: ;
+}
