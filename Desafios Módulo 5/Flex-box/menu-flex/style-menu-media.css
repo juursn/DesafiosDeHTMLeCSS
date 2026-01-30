@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+header, #menu{
+    flex-flow: column nowrap;
+}
+
+header > h1{
+    flex-basis: 50px;
+}
+
+header > #bnt-menu{
+    display: block;
+
+    width: 50px;
+
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    color: white;
+
+}
+
+header > #menu{
+    display: none;
+}
+
+header > #menu.aberto{
+    display: flex;
+    width: 90vw;
+}

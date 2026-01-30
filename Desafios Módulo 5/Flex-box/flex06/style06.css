@@ -1,0 +1,15 @@
+div.conteiner{
+    background-color: rgb(55, 130, 173);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-end;
+    height: 400px;
+
+}
+
+div.item{
+    background-color: rgb(81, 249, 151);
+    border: solid black 2px;
+    text-align: center;
+    padding: 40px;
+}

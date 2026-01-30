@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+@media print{
+    body{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    main{
+        border: solid black;
+        border-radius: 15px;
+    }
+
+    main h1{
+        text-shadow: none;
+        color: black;
+    }
+
+    main::after{
+        content: 'Produzido por mim';
+        font-size: small;
+    }
+
+    #phone{display: none;}
+    #tablet{ display: none;}
+    #print{ display: block;}
+    #PC{display: none;}
+    #TV{display: none;}
+
+}
+
+@media screen and (min-width: 756px) and (max-width: 992px){
+    body{
+        background: url(../img/back-tablet.jpg);
+
+        #phone{display: none;}
+        #tablet{ display: block;}
+        #print{ display: none;}
+        #PC{display: none;}
+        #TV{display: none;}
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width:1200px){
+    body{
+        background: url(../img/back-pc.jpg);
+
+        #phone{display: none;}
+        #tablet{ display: none;}
+        #print{ display: none;}
+        #PC{display: block;}
+        #TV{display: none;}
+    }
+}
+
+@media screen and (min-width: 1200px){
+    body{
+        background: url(../img/back-tv.jpg);
+    }
+    #phone{display: none;}
+        #tablet{ display: none;}
+        #print{ display: none;}
+        #PC{display: none;}
+        #TV{display: block;}
+}

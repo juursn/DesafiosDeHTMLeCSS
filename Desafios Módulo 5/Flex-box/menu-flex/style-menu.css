@@ -1,0 +1,87 @@
+@charset "UFT-8";
+
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+html,body {
+
+    height: 100vh;
+    width: 100vw;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    background: lightcyan;
+
+}
+
+header{
+
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px;
+    background-color: gray;
+
+}
+
+header > h1{
+    flex: 0 0 150px;
+    color: white;
+    /* border: 1px dotted black; */
+}
+header > #bnt-menu{
+    display: none;
+}
+header > nav{
+
+    display: flex;
+
+    /* border: 1px dotted black; */
+    flex-flow: row wrap;
+    justify-content: flex-end;
+
+}
+
+header > nav > a{
+
+    padding: 10px;
+    margin: 5px;
+
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+
+}
+header > nav > a:hover{
+
+    background-color: white;
+    color:black;
+
+    transition: .5s;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+
+}
+
+article{
+    
+    margin: 10px;
+    padding: 15px;
+    width: 500px;
+
+    background-color: rgb(230, 230, 230);
+    border-radius:  10px;
+    box-shadow: 2px 2px 2px rgba(104, 103, 103, 0.252);
+
+}

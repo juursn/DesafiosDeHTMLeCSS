@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="Pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-menu.css">
+    <link rel="stylesheet" href="style-menu-media.css" media="screen and ()">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
+    <title>Menu Flex</title>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <button id="bnt-menu"><i class="material-symbols-outlined">menu</i></button>
+        <nav id="menu">
+                <a href="#">Opção 1</a>
+                <a href="#">Opção 2</a>
+                <a href="#">Opção 3</a>
+                <a href="#">Opção 4</a>
+                <a href="#">Opção 5</a>
+                <a href="#">Opção 6</a>
+        </nav>
+    </header>
+    <main>
+        <article>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, velit dolor. Labore, explicabo. Unde natus, magnam, placeat eaque, at nesciunt commodi nihil aut inventore molestias dolores eligendi quod animi sint? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur doloremque explicabo culpa unde delectus harum. Accusantium est corrupti impedit debitis consectetur eius corporis voluptates, ad nesciunt reiciendis beatae perferendis modi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta fuga eaque error eum temporibus obcaecati in, dignissimos, quos, nam explicabo debitis deleniti natus excepturi? Praesentium repudiandae maiores similique harum inventore!
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. In nam nulla a placeat exercitationem sed minus alias officia at provident soluta culpa excepturi autem mollitia error id laborum, quam qui.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, nesciunt officia. Enim voluptatum asperiores consectetur accusantium tenetur omnis nulla sed sequi accusamus expedita ipsa ducimus earum dolores impedit, maiores consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, recusandae obcaecati dolor totam delectus facere sit impedit voluptates. Iure vero culpa doloribus deleniti non mollitia magnam obcaecati ipsam blanditiis consequatur! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed magnam blanditiis nemo mollitia officia, enim ducimus cupiditate velit! Doloremque dolorem doloribus adipisci corrupti sit magni repellendus dicta vel reiciendis voluptas.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga iste expedita quia ratione ad qui tempora quas illum veniam, unde accusantium officiis. Ipsa laboriosam explicabo id odio unde esse cum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident voluptas esse est, iusto enim maiores exercitationem nihil aliquid adipisci corporis repellat reiciendis, quam, voluptatem voluptatibus. Illum hic quibusdam pariatur? Cum.
+        </article>
+
+    </main>
+    <script>
+        let aberto = false
+
+        const botao = document.getElementById('bnt-menu')
+        const menu = document.getElementById('menu') 
+
+        botao.addEventListener('click', () => {
+            if (aberto){
+                menu.classList.remove('aberto')
+                aberto = false
+            }else{
+                menu.classList.add('aberto')
+                aberto = true
+            }
+        })
+    </script>
+</body>
+</html>

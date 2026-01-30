@@ -1,0 +1,40 @@
+div.conteiner{
+    background-color: rgb(6, 62, 153);
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    height: 400px;
+}
+
+div.item{
+    background-color: rgb(35, 190, 228);
+    border: solid black 1px;
+    text-align: center;
+
+    padding: 10px;
+
+    flex: auto;
+    
+}
+
+div#i1{
+    align-self: auto;
+}
+div#i2{
+    align-self: center;
+}
+div#i3{
+ align-self: flex-end;   
+}
+div#i4{
+    align-self: center;
+}
+div#i5{
+    align-self: flex-start;
+}
+div#i6{
+    align-self: center;
+}
+div#i7{
+    align-self: stretch;
+}

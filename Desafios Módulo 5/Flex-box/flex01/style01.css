@@ -1,0 +1,14 @@
+div.conteiner{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+div.item{
+    text-align: center;
+    border: solid black 1px;
+    background-color: white;
+    color: aquamarine;
+    flex: auto;
+    
+}

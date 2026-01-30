@@ -1,0 +1,8 @@
+@charset 'UTF-8';
+
+/* Aparelho na horizontal (landscape) */
+
+body{
+    background:url(../img/cev-landscape.jpg) left bottom no-repeat ;
+    background-size: contain;
+}

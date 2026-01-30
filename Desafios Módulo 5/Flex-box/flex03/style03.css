@@ -1,0 +1,17 @@
+div.conteiner{
+    background-color: rgb(55, 130, 173);
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+div.item{
+    background-color: white;
+    border: solid black 2px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+    margin: 3px;
+    padding: 10px;
+    flex: auto;
+    
+}

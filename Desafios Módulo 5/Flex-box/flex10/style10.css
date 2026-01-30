@@ -1,0 +1,19 @@
+div.conteiner{
+    background-color: rgb(6, 62, 153);
+    display: flex;
+    flex-flow: row wrap;
+    height: 300px;
+}
+
+div.item{
+    background-color: rgb(35, 190, 228);
+    border: solid black 1px;
+    text-align: center;
+
+
+    padding: 10px;
+    flex-basis: 300px;
+
+    flex-grow: 1;
+    flex-shrink: 1;
+}

@@ -1,0 +1,8 @@
+@charset 'UTF-8';
+
+/* Aparelho na vertical (portrait) */
+
+body{
+    background: url(../img/cev-portrait.jpg) top center no-repeat;
+    background-size: contain;
+}

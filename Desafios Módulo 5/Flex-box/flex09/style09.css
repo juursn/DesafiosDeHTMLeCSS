@@ -1,0 +1,36 @@
+div.conteiner{
+    background-color: rgb(6, 62, 153);
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+div.item{
+    background-color: rgb(35, 190, 228);
+    border: solid black 1px;
+    text-align: center;
+
+    padding: 10px;
+    flex-basis: 200px;
+}
+
+div#i1{
+    order: -4;
+}
+div#i2{
+    order: 1;
+}
+div#i3{
+    order: -3;
+}
+div#i4{
+    order: -1;
+}
+div#i5{
+    order: 5;
+}
+div#i6{
+    order: 3;
+}
+div#i7{
+    order: -28;
+}
